@@ -28,7 +28,7 @@ clean:
 	rm -f $(ODIR)/*.o && rm -f laser
 
 install:
-	cp laser /usr/local/bin
+	cp laser /opt/homebrew/bin
 
 uninstall:
-	rm -f /usr/local/bin/laser
+	rm -f /opt/homebrew/bin/laser
